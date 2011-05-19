@@ -21,15 +21,17 @@ namespace SQA_Tower_Defense
         String title;
         Interface interfaces;
         Map map;
-
+        MainGame game;
         public Menu(String title, Point baseStartingLocation, Texture2D texture, SpriteFont font, SpriteBatch spriteBatch)
         {
+
+
             this.texture = texture;
             this.font = font;
             this.title = title;
             textHeight = (int)font.MeasureString("Main Menu").Y;
             baseStart = new Rectangle(baseStartingLocation.X, baseStartingLocation.Y, (int)font.MeasureString("Main Menu").X, (int)font.MeasureString("Main Menu").Y);
-            subMenuStart = new Rectangle(baseStart.X, baseStart.Y + textHeight, baseStart.Width, baseStart.Height);
+            subMenuStart = new Rectangle(baseStart.X, baseStart.Y, baseStart.Width, baseStart.Height);
             this.spriteBatch = spriteBatch;
 
             subOptions = new List<string>();
@@ -44,6 +46,47 @@ namespace SQA_Tower_Defense
         public void Draw()
         {
 
+
+
+            if (interfaces.Language == "En" && baseStart.Width != 300)
+            {
+                baseStart.Width = 300;
+
+
+
+                for (int i = 0; i < subMenusRecs.Count; i++)
+                {
+                    subMenusRecs[i] = new Rectangle(subMenusRecs[i].X, subMenusRecs[i].Y, 300, subMenusRecs[i].Height);
+
+                }
+
+                for(int i = 0; i < subOptionsRecs.Count;i++)
+                {
+                    subOptionsRecs[i] = new Rectangle(subOptionsRecs[i].X, subOptionsRecs[i].Y, 300, subOptionsRecs[i].Height);
+
+                }
+            }
+            if(interfaces.Language == "Sp" && baseStart.Width != 500)
+            {
+                baseStart.Width = 500;
+
+
+
+                for (int i = 0; i < subMenusRecs.Count; i++)
+                {
+                    subMenusRecs[i] = new Rectangle(subMenusRecs[i].X, subMenusRecs[i].Y, 500, subMenusRecs[i].Height);
+
+                }
+
+                for (int i = 0; i < subOptionsRecs.Count; i++)
+                {
+                    subOptionsRecs[i] = new Rectangle(subOptionsRecs[i].X, subOptionsRecs[i].Y, 500, subOptionsRecs[i].Height);
+
+                }
+
+
+            }
+
             spriteBatch.Draw(texture, baseStart, Color.White);
             spriteBatch.DrawString(font, interfaces.LM.getTranslation(title, interfaces.Language), new Vector2(baseStart.X + (0.5f * baseStart.Width) - font.MeasureString(interfaces.LM.getTranslation(title, interfaces.Language)).X / 2, baseStart.Y), Color.Red);
 
@@ -51,6 +94,8 @@ namespace SQA_Tower_Defense
             for (int i = 0; i < subOptionsRecs.Count; i++)
             {
                 spriteBatch.Draw(texture, subOptionsRecs[i], Color.Red);
+                
+                
                 spriteBatch.DrawString(font, interfaces.LM.getTranslation(subOptions[i], interfaces.Language), new Vector2(subOptionsRecs[i].X + (0.5f * subOptionsRecs[i].Width) - font.MeasureString(interfaces.LM.getTranslation(subOptions[i], interfaces.Language)).X / 2, subOptionsRecs[i].Y), Color.White);
             }
             
@@ -74,7 +119,7 @@ namespace SQA_Tower_Defense
             for (int i = 0; i < subMenusRecs.Count; i++)
             {
                 if (subMenusRecs[i].Contains(location))
-                    subMenus[i].Visible = true;
+                    subMenus[i].Visible = !subMenus[i].Visible;
             }
         }
 
@@ -105,7 +150,13 @@ namespace SQA_Tower_Defense
                     if (map.Difficulty < 3)
                         map.Difficulty++;
                     break;
-
+                case "Exit Game":
+                    game.Exit();
+                    break;
+                case "Resume":
+                    this.Visible = false;
+                    break;
+                
 
 
             }
@@ -117,7 +168,6 @@ namespace SQA_Tower_Defense
 
             subMenus.Add(menu);
 
-            baseStart = new Rectangle(baseStart.X, baseStart.Y, baseStart.Width > (int)font.MeasureString(menu.title).X ? baseStart.Width : (int)font.MeasureString(menu.title).X, baseStart.Height + 20);
             subMenuStart = new Rectangle(subMenuStart.X, subMenuStart.Y + textHeight, baseStart.Width, subMenuStart.Height);
             subMenusRecs.Add(subMenuStart);
 
@@ -127,7 +177,7 @@ namespace SQA_Tower_Defense
         {
             subOptions.Add(option);
 
-            baseStart = new Rectangle(baseStart.X, baseStart.Y, baseStart.Width > (int)font.MeasureString(option).X ? baseStart.Width : (int)font.MeasureString(option).X, baseStart.Height + 20);
+            //baseStart = new Rectangle(baseStart.X, baseStart.Y, baseStart.Width > (int)font.MeasureString(option).X ? baseStart.Width : (int)font.MeasureString(option).X, baseStart.Height + 20);
             subMenuStart = new Rectangle(subMenuStart.X, subMenuStart.Y + textHeight, baseStart.Width, subMenuStart.Height);
             subOptionsRecs.Add(subMenuStart);
 
@@ -177,7 +227,12 @@ namespace SQA_Tower_Defense
         {
             set { this.interfaces = value; }
         }
+        public MainGame Game
+        {
+            get { return this.game; }
+            set { this.game = value; }
 
+        }
 
     }
 }

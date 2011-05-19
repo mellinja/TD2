@@ -51,3 +51,7 @@ Spanish
 Spanish
 Infinite
 Infinite
+Exit Game
+Exit Game
+Resume
+Resume

@@ -51,3 +51,7 @@ Infinite
 Infinita
 Cost
 Costo
+Exit Game
+Salida Juego
+Resume
+Reanudar

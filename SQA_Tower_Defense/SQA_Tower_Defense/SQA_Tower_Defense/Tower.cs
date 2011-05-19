@@ -171,16 +171,7 @@ namespace SQA_Tower_Defense
             if (this.name == "slow")
             {
                 foreach (Enemy e in nearbyEnemies)
-                {
-                    double tCenterX = this.Location.X;
-                    double eCenterX = e.Location.X;
-                    double tCenterY = this.Location.Y;
-                    double eCenterY = e.Location.Y;
-
-                    double distance = DistanceFrom(new Vector2((float)eCenterX, (float)eCenterY));
-                    if (distance <= range)
-                        e.Freezing = 200 + e.Counter;
-                }
+                    e.Freezing = 200 + e.Counter;
             }
 
             

@@ -108,20 +108,21 @@ namespace SQA_Tower_Defense
             menus = new List<Menu>();
             this.main = new Menu("Main Menu", new Point(0, 0), backTex, font, spriteBatch);
             this.main.Interface = menu;
-            main.AddSubOption("Back");
+            main.AddSubOption("Resume");
+            main.AddSubOption("Exit Game");
 
-            this.options = new Menu("Options", new Point(300, 0), backTex, font, spriteBatch);
+            main.Game = this;
+            this.options = new Menu("Options", new Point(0, 250), backTex, font, spriteBatch);
             this.options.Interface = menu;
-            this.options.AddSubOption("Back");
-
-            this.difficulty = new Menu("Difficulty", new Point(300, 300), backTex, font, spriteBatch);
+            this.difficulty = new Menu("Difficulty", new Point(0, 500), backTex, font, spriteBatch);
             this.difficulty.Interface = menu;
             this.difficulty.AddSubOption("Raise Difficulty");
             this.difficulty.AddSubOption("Lower Difficulty");
+            this.difficulty.AddSubOption("Back");
 
             difficulty.Map = this.map;
 
-            this.language = new Menu("Languages", new Point(600, 0), backTex, font, spriteBatch);
+            this.language = new Menu("Languages", new Point(0, 750), backTex, font, spriteBatch);
             this.language.Interface = menu;
             this.language.AddSubOption("Spanish");
             this.language.AddSubOption("English");
@@ -130,6 +131,9 @@ namespace SQA_Tower_Defense
 
             options.AddSubMenu(difficulty);
             options.AddSubMenu(language);
+
+            this.options.AddSubOption("Back");
+
             main.AddSubMenu(options);
 
 
@@ -294,7 +298,15 @@ namespace SQA_Tower_Defense
                 if (language.Visible)
                     language.Draw();
                 if (difficulty.Visible)
+                {
                     difficulty.Draw();
+                    string diff = "Normal";
+                    if(map.Difficulty == 1)
+                        diff = "Easy";
+                    else if(map.Difficulty == 3)
+                        diff = "Hard";
+                    spriteBatch.DrawString(font, "Currently on " + diff, new Vector2(difficulty.Area.X + difficulty.Area.Width, difficulty.Area.Y), Color.Red);
+                }
             }
             else
             {
