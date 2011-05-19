@@ -301,7 +301,7 @@ namespace SQA_Tower_Defense
         public int Counter
         {
             get { return this.counter; }
-
+            set { this.counter = value; }
         }
 
 

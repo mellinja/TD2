@@ -44,6 +44,9 @@ namespace ClassTests
             map.SpawnEnemy(e2);
             map.SpawnEnemy(e3);
             t.updateCounter = t.UpdateMax - 1;
+            e1.Counter = 1;
+            e2.Counter = 1;
+            e3.Counter = 1;
             map.Update();
             Assert.AreEqual(new Rectangle(65, 65, 1, 1), e1.Location);
 
