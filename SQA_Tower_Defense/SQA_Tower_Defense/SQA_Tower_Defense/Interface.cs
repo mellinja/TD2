@@ -95,7 +95,7 @@ namespace SQA_Tower_Defense
 
                 }
 
-                spriteBatch.DrawString(tipFont, tower.Range / 2 + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y), Color.White);
+                
             }
             else
                 spriteBatch.DrawString(tipFont, lm.getTranslation("Infinite", language) + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y + 45), Color.White);
@@ -103,6 +103,8 @@ namespace SQA_Tower_Defense
             
 
             // spriteBatch.DrawString(tipFont, tower.Name + lm.getTranslation("Tower", language), new Vector2(tipBackground.X, tipBackground.Y), Color.White);
+            spriteBatch.DrawString(tipFont, lm.getTranslation("Cost: ", language), new Vector2(tipBackground.X, tipBackground.Y), Color.White);
+            spriteBatch.DrawString(tipFont, tower.Range / 2 + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y+45), Color.White);
             spriteBatch.DrawString(tipFont, lm.getTranslation("Damage", language) + ": " + tower.AttackDamage, new Vector2(tipBackground.X, tipBackground.Y + 15), Color.White);
             spriteBatch.DrawString(tipFont, lm.getTranslation("Sell for", language) + " " + tower.Cost * 3 / 4 + " " + lm.getTranslation("gold", language) + ": ", new Vector2(tipBackground.X, tipBackground.Y + 30), Color.White);
         }
