@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense.csproj" total="0" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-05-19" time="00:33:03">
+<test-results name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense.csproj" total="0" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-05-19" time="01:49:10">
   <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.3620" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense" machine-name="MELLINJA-1" user="mellinja" user-domain="MELLINJA-1" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
   <test-suite type="Project" name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense.csproj" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0">

@@ -47,6 +47,7 @@
     <Compile Include="AutomaticWaveTests.cs" />
     <Compile Include="CastleTests.cs" />
     <Compile Include="CellTests.cs" />
+    <Compile Include="DifficultyTests.cs" />
     <Compile Include="EnemyMovementTests.cs">
       <SubType>Code</SubType>
     </Compile>

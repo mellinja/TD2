@@ -94,6 +94,10 @@ namespace SQA_Tower_Defense
             {
                 e.Castle = c;
             }
+            if (this.difficulty == 1)
+                c.Health *= 1.25f;
+            if (this.difficulty == 3)
+                c.Health *= .75f;
             castle = c;
 
         }
@@ -154,7 +158,15 @@ namespace SQA_Tower_Defense
         public void KillEnemy(Enemy enemy)
         {
             enemiesOnMap.Remove(enemy);
-            score += enemy.Gold * 10;
+
+            if (this.difficulty == 1)
+                score += (int) (enemy.Gold * 7.5);
+
+            if (this.difficulty == 2)
+                score += enemy.Gold * 10;
+
+            if (this.difficulty == 3)
+            score += (int)(enemy.Gold * 12.5);
             money += enemy.Gold;
         }
 
