@@ -53,6 +53,7 @@
     <Compile Include="EnemyMovementTestsWithCastle.cs" />
     <Compile Include="LanguageManagerTest.cs" />
     <Compile Include="MainGameTests.cs" />
+    <Compile Include="TowerColorTests.cs" />
     <Compile Include="TowerTestInteractionWithEnemiesWithsetup.cs" />
     <Compile Include="TowerTestsInteractionWithEnemies.cs" />
     <Compile Include="EnemyTests.cs" />
