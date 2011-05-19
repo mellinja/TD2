@@ -26,7 +26,7 @@ namespace ClassTests
             towerPosition = new Rectangle(0, 1, 1, 1);
             enemyPosition = new Rectangle(1, 1, 1, 1);
             enemy = new Enemy(10, 1.0f, "basic", 10, enemyPosition);
-            tower = new Tower("Tower", 1, 1, 1, 100, towerPosition);
+            tower = new Tower("basic", 1, 1, 1, 100, towerPosition);
             map = new Map("normal", 100, 2);
             map.PlaceTower(tower);
             map.SpawnEnemy(enemy);
@@ -193,7 +193,7 @@ namespace ClassTests
         public void MultipleTowersCanAttackSingleEnemy()
         {
             //Testing that two towers can attack the same enemy
-            Tower tower2 = new Tower("", 10, 20, 30, 40, new Rectangle(4,4, 1,1));
+            Tower tower2 = new Tower("basic", 10, 20, 30, 40, new Rectangle(4,4, 1,1));
 
             map.PlaceTower(tower2);
             map.Update();

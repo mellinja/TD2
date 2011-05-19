@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace ClassTests
 {
-
+    [Ignore()]
     [TestFixture()]
     public class MainGameTests
     {

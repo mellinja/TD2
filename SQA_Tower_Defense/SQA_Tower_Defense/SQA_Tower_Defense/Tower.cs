@@ -58,7 +58,7 @@ namespace SQA_Tower_Defense
                     this.color = Color.Blue;
                     break;
                 case "dot":
-                    this.color = Color.Firebrick;
+                    this.color = Color.Red;
                     break;
                 case "sniper":
                     this.color = Color.Green;
@@ -142,7 +142,7 @@ namespace SQA_Tower_Defense
             {
                 return;
             }
-            if (this.name == "basic"|| this.name == "sniper")
+            if (this.name == "basic" || this.name == "sniper")
             {
                 if (this.updateCounter == UpdateMax)
                 {
@@ -172,6 +172,7 @@ namespace SQA_Tower_Defense
             {
                 foreach (Enemy e in nearbyEnemies)
                     e.Freezing = 200 + e.Counter;
+               
             }
 
             

@@ -14,8 +14,8 @@ namespace ClassTests
         [Test()]
         public void testTwoTowerswithTwoEnemies()
         {
-            Tower t1 = new Tower("tower", 10, 1, 10, 20, new Rectangle(10, 10, 1, 1));
-            Tower t2 = new Tower("tower", 10, 10, 10, 20, new Rectangle(20, 20, 1, 1));
+            Tower t1 = new Tower("basic", 10, 1, 10, 20, new Rectangle(10, 10, 1, 1));
+            Tower t2 = new Tower("basic", 10, 10, 10, 20, new Rectangle(20, 20, 1, 1));
             Enemy e1 = new Enemy(20, 1.0, "basic", 1, new Rectangle(11, 11, 1, 1)); // In range of tower and tower 2, closer to tower 1
             Enemy e2 = new Enemy(20, 1.0, "basic", 1, new Rectangle(19, 19, 1, 1)); // In range of tower and tower 2, closer to tower 2
 
