@@ -1,0 +1,39 @@
+En
+Hello
+Hello
+Name
+Name
+Basic
+Basic
+Score
+Score
+Money
+Money
+Gold
+Gold
+gold
+gold
+Damage
+Damage
+Range
+Range
+Health
+Health
+Rewinding
+Rewinding
+Speed
+Speed
+enemy
+Enemy
+Sell for
+Sell for
+Tower
+Tower
+Main Menu
+Main Menu
+Back
+Back
+Languages
+Languages
+Options
+Options

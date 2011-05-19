@@ -1,0 +1,49 @@
+Sp
+Hello
+Hola
+Name
+Nombre
+Basic
+Basico
+Score
+Puntuacion
+Money
+Dinero
+Gold
+Oro
+gold
+oro
+Damage
+Danos
+Range
+Rango
+Health
+Puntos de Salud
+Rewinding
+Eres el rebobinado
+Speed
+Velocidad
+enemy
+Enemigo
+Sell for
+Cuesta para
+Tower
+Torre
+Main Menu
+menu principal
+Back
+Vuelta
+Languages
+Idiomas
+Options
+Opciones
+Raise Difficulty
+Aumentar Dificultad
+Lower Difficulty
+Menor Dificultad
+Difficulty
+Dificultad
+English
+Ingles
+Spanish
+Espanol

@@ -1,0 +1,19 @@
+Sp
+Hello
+Hola
+Name
+Nombre
+Basic
+Basico
+Score
+Puntuación
+Money
+Dinero
+Cost
+Oro
+Damage
+Daños
+Range
+Rango
+Health
+Puntos de Salud
