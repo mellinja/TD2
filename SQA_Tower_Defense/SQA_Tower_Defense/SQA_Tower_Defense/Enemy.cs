@@ -23,8 +23,9 @@ namespace SQA_Tower_Defense
         protected Castle castle;
         protected bool inFiringRange;
         protected Map map;
-        protected bool freezing;
+        protected int freezingStop;
         protected int counter, burnStop;
+        protected Color c;
         
         //Constructs the Enemy class, throws 2 exceptions (ArgumentOurOfRangeException and ArgumentNullArgument) (15 lines)
         public Enemy(float health, double speed, String type, int gold, Rectangle location)
@@ -66,13 +67,24 @@ namespace SQA_Tower_Defense
         public void Update()
         {
             counter++;
-            
-            if (counter < burnStop)
+            if (burnStop > counter && freezingStop > counter)
             {
                 this.health -= 1;
-
+                this.c = Color.Purple;
+            }
+            else if (counter < burnStop)
+            {
+                this.health -= 1;
+                this.c = Color.Red;
             }
 
+            else if (freezingStop > counter)
+                this.c = Color.Blue;
+
+
+
+            else
+                this.c = Color.White;
 
             
 
@@ -83,7 +95,7 @@ namespace SQA_Tower_Defense
         public void Move()
         {
 
-            if (freezing && counter % 2 == 0)
+            if (freezingStop>counter && counter % 2 == 0)
                 return;
             
             
@@ -269,10 +281,10 @@ namespace SQA_Tower_Defense
             get { return this.map; }
             set { this.map = value; }
         }
-        public bool Freezing
+        public int Freezing
         {
-            get { return this.freezing; }
-            set { this.freezing = value; }
+            get { return this.freezingStop; }
+            set { this.freezingStop = value; }
 
 
         }
@@ -280,6 +292,11 @@ namespace SQA_Tower_Defense
         {
             get { return this.burnStop; }
             set { this.burnStop = value; }
+        }
+        public Color Color
+        {
+            get { return this.c; }
+            set { this.c = value; }
         }
         public int Counter
         {

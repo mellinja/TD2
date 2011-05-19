@@ -138,17 +138,43 @@ namespace SQA_Tower_Defense
         public void Update()
         {
             this.updateCounter++;
-            if (this.updateCounter == UpdateMax)
+            if (this.name == "path")
             {
-                updateCounter = 0;
-                Enemy attacking = this.getCurrentTarget();
-                if (attacking != null)
+                return;
+            }
+            if (this.name == "basic"|| this.name == "sniper")
+            {
+                if (this.updateCounter == UpdateMax)
                 {
-                    attacking.Health -= this.attackDamage;
-                    if (attacking.Health <= 0)
-                        this.Enemies.Remove(attacking);
+                    updateCounter = 0;
+                    Enemy attacking = this.getCurrentTarget();
+                    if (attacking != null)
+                    {
+                        attacking.Health -= this.attackDamage;
+                        if (attacking.Health <= 0)
+                            this.Enemies.Remove(attacking);
+                    }
                 }
             }
+            if (this.name == "dot")
+            {
+                if (this.updateCounter == UpdateMax)
+                {
+                    updateCounter = 0;
+                    Enemy attacking = this.getCurrentTarget();
+                    if (attacking != null)
+                    {
+                        attacking.BurnStop = 200 + attacking.Counter;
+                    }
+                }
+            }
+            if (this.name == "slow")
+            {
+                foreach (Enemy e in nearbyEnemies)
+                    e.Freezing = 200 + e.Counter;
+            }
+
+            
         }
 
 

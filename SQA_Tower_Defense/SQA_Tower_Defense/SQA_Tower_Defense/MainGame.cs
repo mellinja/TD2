@@ -223,7 +223,7 @@ namespace SQA_Tower_Defense
             }
             foreach (Enemy enemy in map.Enemies)
             {
-                spriteBatch.Draw(towerTex, enemy.Location, Color.Red);
+                spriteBatch.Draw(towerTex, enemy.Location, enemy.Color);
                 enemy.DrawHealth(backTex, spriteBatch);
             }
             if (placingTower != null)
