@@ -39,3 +39,8 @@ C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\bin\Debug
 C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\ClassLibrary1\bin\Debug\Eiffel.xnb
+C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\ClassLibrary1\bin\Debug\Blank.xnb
+C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\ClassLibrary1\bin\Debug\font.xnb
+C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\ClassLibrary1\bin\Debug\tooltipfont.xnb
+C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\ClassLibrary1\bin\Debug\bigfont.xnb

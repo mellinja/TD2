@@ -21,9 +21,10 @@ namespace SQA_Tower_Defense
         Rectangle location;
         protected List<Enemy> nearbyEnemies;
         public int UpdateMax = 60;
+        protected Color color;
 
         //Contructs a tower. Throws exceptions for invalid ranges of values (18 lines)
-        public Tower (String name, int health, int damage, int cost, int range, Rectangle location)
+        public Tower(String name, int health, int damage, int cost, int range, Rectangle location)
         {
 
             if (location.Equals(new Rectangle()))
@@ -34,7 +35,6 @@ namespace SQA_Tower_Defense
                 throw new ArgumentOutOfRangeException();
             if (health <= 0)
                 throw new ArgumentOutOfRangeException();
-
             if (cost < 0)
                 throw new ArgumentOutOfRangeException();
 
@@ -47,6 +47,25 @@ namespace SQA_Tower_Defense
             this.range = range;
             this.updateCounter = 0;
             this.nearbyEnemies = new List<Enemy>();
+
+            this.color = Color.White;
+            switch (name)
+            {
+                case "path":
+                    this.color = Color.Black;
+                    break;
+                case "slow":
+                    this.color = Color.Blue;
+                    break;
+                case "dot":
+                    this.color = Color.Firebrick;
+                    break;
+
+
+            }
+
+            if (color == Color.White)
+                name = "basic";
         }
 
 
@@ -103,6 +122,13 @@ namespace SQA_Tower_Defense
             get { return this.location; }
             set { this.location = value; }
         }
+        public Color Color
+        {
+            get { return this.color; }
+            set { this.color = value; }
+
+        }
+
 
 
 

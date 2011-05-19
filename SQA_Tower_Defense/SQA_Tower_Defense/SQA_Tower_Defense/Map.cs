@@ -148,6 +148,7 @@ return false;
       public void KillEnemy(Enemy enemy)
       {
           enemiesOnMap.Remove(enemy);
+          score += enemy.Gold * 10;
           money += enemy.Gold;
       }
 

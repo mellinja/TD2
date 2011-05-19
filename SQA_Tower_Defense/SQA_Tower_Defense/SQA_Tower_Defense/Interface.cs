@@ -52,8 +52,8 @@ namespace SQA_Tower_Defense
             }
 
             Vector2 textLocation = new Vector2(graphics.PreferredBackBufferWidth - 300, graphics.PreferredBackBufferHeight * 4 / 5);
-            spriteBatch.DrawString(font, lm.getTranslation("gold", language) + ": " + info.money, textLocation, Color.Red);
-            spriteBatch.DrawString(font, lm.getTranslation("Speed", language) + ": " + info.score, new Vector2(textLocation.X, textLocation.Y + 25), Color.Red);
+            spriteBatch.DrawString(font, lm.getTranslation("Gold", language) + ": " + info.money, textLocation, Color.Red);
+            spriteBatch.DrawString(font, lm.getTranslation("Score", language) + ": " + info.score, new Vector2(textLocation.X, textLocation.Y + 30), Color.Red);
 
         }
 
