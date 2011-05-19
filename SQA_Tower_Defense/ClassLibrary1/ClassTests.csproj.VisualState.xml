@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
   <TopNode>[0-1000]C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\ClassTests.csproj</TopNode>
-  <SelectedNode>[0-1027]ClassTests.TowerColorTests.SlowTowerTest</SelectedNode>
+  <SelectedNode>[0-1073]ClassTests.AutomaticWaveTests</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
     <Node UniqueName="[0-1000]C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\ClassTests.csproj" Expanded="true" />
     <Node UniqueName="[0-1137]C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\bin\Debug\ClassLibrary1.dll" Expanded="true" />
     <Node UniqueName="[0-1138]ClassTests" Expanded="true" />
-    <Node UniqueName="[0-1025]ClassTests.TowerColorTests" Expanded="true" />
-    <Node UniqueName="[0-1017]ClassTests.WaveTest" Expanded="true" />
   </Nodes>
 </VisualState>

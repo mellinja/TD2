@@ -1,17 +1,253 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\ClassTests.csproj" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-05-19" time="01:18:34">
+<test-results name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\ClassTests.csproj" total="107" errors="0" failures="0" not-run="15" inconclusive="0" ignored="15" skipped="0" invalid="0" date="2011-05-19" time="01:24:16">
   <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.3620" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1" machine-name="MELLINJA-1" user="mellinja" user-domain="MELLINJA-1" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Project" name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\ClassTests.csproj" executed="True" result="Success" success="True" time="0.156" asserts="0">
+  <test-suite type="Project" name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\ClassTests.csproj" executed="True" result="Success" success="True" time="0.328" asserts="0">
     <results>
-      <test-suite type="Assembly" name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\bin\Debug\ClassLibrary1.dll" executed="True" result="Success" success="True" time="0.141" asserts="0">
+      <test-suite type="Assembly" name="C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\bin\Debug\ClassLibrary1.dll" executed="True" result="Success" success="True" time="0.313" asserts="0">
         <results>
-          <test-suite type="Namespace" name="ClassTests" executed="True" result="Success" success="True" time="0.141" asserts="0">
+          <test-suite type="Namespace" name="ClassTests" executed="True" result="Success" success="True" time="0.297" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="TowerColorTests" executed="True" result="Success" success="True" time="0.141" asserts="0">
+              <test-suite type="TestFixture" name="AutomaticWaveTests" executed="True" result="Success" success="True" time="0.109" asserts="0">
                 <results>
-                  <test-case name="ClassTests.TowerColorTests.RedTowerTest" executed="True" result="Success" success="True" time="0.141" asserts="5" />
+                  <test-case name="ClassTests.AutomaticWaveTests.TestAutoWave" executed="True" result="Success" success="True" time="0.094" asserts="2" />
+                  <test-case name="ClassTests.AutomaticWaveTests.TestAutoWaveBecomesHarder" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.AutomaticWaveTests.TestAutoWaveBecomesHarderAndBigger" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="CastleTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="ClassTests.CastleTests.castleCanBeDestroyed" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.CastleTests.castleCanBeDestroyedStopsAll" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.CastleTests.CastleInitTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.CastleTests.CastleInitTestBadLocation" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.CastleTests.CastleInitTestHealth0" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                  <test-case name="ClassTests.CastleTests.CastleInitTestHealthNegative" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="CellTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="ClassTests.CellTests.CellHasOccupied" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.CellTests.CellInitializes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="EnemyMovementTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="ClassTests.EnemyMovementTests.mapSpawnsEnemys" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.EnemyMovementTests.mapUpdatesAddsEnemiesToTowerLists" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.EnemyMovementTests.mapUpdatesDamageEnemiesWithTowers" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.EnemyMovementTests.mapUpdatesMoveAllEnemy" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                  <test-case name="ClassTests.EnemyMovementTests.mapUpdatesMoveSingleEnemy" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="EnemyMovementTestsWithCastle" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="ClassTests.EnemyMovementTestsWithCastle.TestEnemiesMoveToCastleDownWhenPathBlocked" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyMovementTestsWithCastle.TestEnemiesMoveToCastleLeftRight" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyMovementTestsWithCastle.TestEnemiesMoveToCastleLeftRightWhenPathBlocked" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyMovementTestsWithCastle.TestEnemiesMoveToCastleRightWhenPathBlocked" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyMovementTestsWithCastle.TestEnemiesMoveToCastleUpDown" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyMovementTestsWithCastle.TestEnemiesStopWhenNextToCastle" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyMovementTestsWithCastle.TestEnemyDamagesCastle" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                  <test-case name="ClassTests.EnemyMovementTestsWithCastle.TestSurroundedEnemiesDontMove" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="EnemyTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="ClassTests.EnemyTests.EnemyHasCorrectGoldAfterInitialized" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyTests.EnemyHasCorrectHealthAfterDamaged" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyTests.EnemyHasCorrectHealthAfterInitialized" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyTests.EnemyHasCorrectSpeedAfterInitialized" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyTests.EnemyHasCorrectSpeedAfterModified" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyTests.EnemyHasCorrectTypeAfterModified" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyTests.EnemyInitializesSuccessfully" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.EnemyTests.testEnemyThrowsExceptioOnInvalidType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.EnemyTests.testEnemyThrowsExceptioOnNegativeGold" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.EnemyTests.testEnemyThrowsExceptioOnNegativeHealth" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.EnemyTests.testEnemyThrowsExceptioOnNegativeSpeed" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.EnemyTests.testEnemyThrowsExceptioOnNullArea" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.EnemyTests.testEnemyThrowsExceptioOnZeroGold" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.EnemyTests.testEnemyThrowsExceptioOnZeroHealth" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.EnemyTests.testEnemyThrowsExceptioOnZeroSpeed" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="LanguageManagerTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="ClassTests.LanguageManagerTests.HasHello" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.LanguageManagerTests.HasName" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.LanguageManagerTests.Initializes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.LanguageManagerTests.IsHello" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                  <test-case name="ClassTests.LanguageManagerTests.IsName" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="MainGameTests" executed="False" result="Ignored">
+                <reason>
+                  <message><![CDATA[]]></message>
+                </reason>
+                <results>
+                  <test-case name="ClassTests.MainGameTests.ClickingEmptySpaceWhenSelectingTowerPlacesTower" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.ClickingNewTowerSelectsCorrectTower" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.ClickingNewTowerSelectsNewTower" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.GameInitializesSuccessfully" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.LoadContentInitializesEverythingSuccessfully" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.LoadContentInitializesSpriteBatchSuccessfully" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.LoadContentLoadsFontSuccessfully" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.LoadContentLoadsMouseStatusSuccessfully" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.Pressing1SelectsCorrectTower" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.MainGameTests.Pressing1SelectsNewTower" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="MapTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                <results>
+                  <test-case name="ClassTests.MapTests.EnemiesGetAddedToListWhenSpawned" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.MapTests.EnemiesGetRemovedFromListWhenKilled" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.MapTests.EnemiesNotInListThatGetKilledCrashGame" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.MapTests.InsufficientFundsRejectTowerPlacement" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.LoadedStateHasCorrectLastEnemy" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.LoadedStateHasCorrectMoneyAmount" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.LoadedStateHasCorrectTowerCount" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                  <test-case name="ClassTests.MapTests.LoadedStatesDoChangeStateOfMap" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.LoadedStatesDoNotLoadIfThereIsNoPreviousStates" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.MapInitializes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.MoneyDecreasesWhenTowerIsPlaced" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.MoneyIncreasesWhenEnemyIsKilled" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.MoneyIncreasesWhenTowerIsSold" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SavedStateLastStateHasCorrectEnemy" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SavedStateLastStateHasCorrectEnemyCount" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SaveStateListIsNotNullWhenMapInitializes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SaveStateNextStateAddsNewStateToList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SaveStateOneSavedStateHasCorrectTowerList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SaveStateOneSaveStateHasCorrectMoneyCount" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SaveStateOneSaveStateHasCorrectScoreAmount" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SaveStateTwoSavedStatesDoNotHaveIncorrectTowerList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.SaveStateTwoSavedStatesHaveCorrectTowerList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.test0Difficulty" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.MapTests.testMapInvalidGameType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.MapTests.testMapNegativeMoney" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.MapTests.testNegativeDifficulty" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.MapTests.testTooHighDifficulty" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.MapTests.TowersCannotBePlacedOnTopOfAnotherTower" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.TowersGetAddedToListWhenPlaced" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.MapTests.TowersGetRemovedFromListWhenSold" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="TowerColorTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="ClassTests.TowerColorTests.NormalTowerTest" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                  <test-case name="ClassTests.TowerColorTests.RedTowerTest" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                  <test-case name="ClassTests.TowerColorTests.SlowTowerTest" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="TowerTestInteractionWithEnemiesWithsetup" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.attackEvery60" executed="True" result="Success" success="True" time="0.000" asserts="61" />
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.EnemyDestroyed" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.EnemyMoveOutofRange" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.EnemyThatDiesWithinRangeOfTwoTowersGetsRemovedFromBothTowerLists" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.MoveBothEnemyOutofRange" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.MultipleTowersCanAttackSingleEnemy" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.TowerAttacksAnEnemyInItsRange" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.TowerDoesNotAttackEnemyOutsideItsRange" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.TowerTestInteractionWithEnemiesWithsetup.TowerStopsAttackingEnemyOnceItMovesOutsideOfRange" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="TowerTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="ClassTests.TowerTests.testInit" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnNegativeCost" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnNegativeDamage" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnNegativeHealth" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnNegativeRange" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnNullArea" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnZeroCost" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnZeroDamage" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnZeroHealth" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.TowerTests.testTowerThrowsExceptioOnZeroRange" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.TowerTests.TowerAddsEnemySuccessfully" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.TowerTests.towerHasCorrectAttackDamageWhenInitialized" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.TowerTests.towerHasCorrectCostWhenInitialized" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.TowerTests.towerHasCorrectHealthAfterModified" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.TowerTests.towerHasCorrectHealthWhenInitialized" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.TowerTests.towerHasCorrectRangeWhenInitialized" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="TowerTestsInteractionWithEnemies" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="ClassTests.TowerTestsInteractionWithEnemies.testTowerChangesTarget" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.TowerTestsInteractionWithEnemies.testTowerUpdatesEnemiesList" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.TowerTestsInteractionWithEnemies.testTwoTowerswithTwoEnemies" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="WaveTest" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="ClassTests.WaveTest.WaveInitializes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.WaveTest.WaveReturnsAnEnemy" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.WaveTest.WaveReturnsMultipleEnemy" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="ClassTests.WaveTest.WaveReturnsUniqueEnemies" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="ClassTests.WaveTest.WaveThrowsOn0Count" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                  <test-case name="ClassTests.WaveTest.WaveThrowsOnNegativeCount" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="ClassTests.WaveTest.WaveThrowsOnNullEnemy" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
                 </results>
               </test-suite>
             </results>

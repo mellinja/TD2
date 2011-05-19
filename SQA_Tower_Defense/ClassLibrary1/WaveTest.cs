@@ -24,6 +24,7 @@ namespace ClassTests
 
 
         //Testing that Wave throws an exception when init with null enemy
+        [Ignore()]
         [Test()]
         [ExpectedException(typeof(ArgumentNullException))]
         public void WaveThrowsOnNullEnemy()
@@ -32,6 +33,7 @@ namespace ClassTests
         }
 
         //Testing that Wave throws an exception when init with 0 count
+        [Ignore()]
         [Test()]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void WaveThrowsOn0Count()

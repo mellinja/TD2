@@ -38,28 +38,24 @@ namespace ClassTests
             Tower t = new Tower("slow", 10, 10, 10, 1, new Rectangle(70, 70, 1, 1));
             Enemy e1 = new Enemy(100, 1, "basic", 100, new Rectangle(65, 65, 1, 1));
             Enemy e2 = new Enemy(100, 1, "basic", 100, new Rectangle(75, 75, 1, 1));
-            Enemy e3 = new Enemy(100, 1, "basic", 100, new Rectangle(105, 105, 1, 1));
             map.PlaceTower(t);
             map.SpawnEnemy(e1);
             map.SpawnEnemy(e2);
-            map.SpawnEnemy(e3);
             t.updateCounter = t.UpdateMax - 1;
             //e1.Counter = 1;
             //e2.Counter = 1;
-            //e3.Counter = 1;
+
             //map.Update();
             t.Update();
             Assert.AreEqual(new Rectangle(65, 65, 1, 1), e1.Location);
 
             Assert.AreEqual(new Rectangle(75, 75, 1, 1), e2.Location);
 
-          //  Assert.AreEqual(new Rectangle(106, 106, 1, 1), e3.Location);
             map.Update();
             Assert.AreEqual(new Rectangle(66, 66, 1, 1), e1.Location);
 
             Assert.AreEqual(new Rectangle(76, 76, 1, 1), e2.Location);
 
-            Assert.AreEqual(new Rectangle(107, 107, 1, 1), e3.Location);
             Assert.AreEqual(t.Color, Color.Blue);
 
         }
