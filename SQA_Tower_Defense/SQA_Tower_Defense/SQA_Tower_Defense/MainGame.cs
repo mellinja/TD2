@@ -89,7 +89,7 @@ namespace SQA_Tower_Defense
             gridSize = 50;
             gameTimer = 0;
             placingTower = null;
-            map = new Map("normal", 100, 1);
+            map = new Map("normal", 100, 2);
 
             towerTex = Content.Load<Texture2D>("Sprites\\Eiffel");
             backTex = Content.Load<Texture2D>("Sprites\\Blank");
@@ -97,7 +97,8 @@ namespace SQA_Tower_Defense
             e.Map = map;
             map.setStandardEnemy(e.Clone());
             map.Enemies.Add(e);
-            map.PlaceCastle(new Castle(1000000000, new Rectangle(1500, 200, 40, 40)));
+            Castle c = new Castle(1000000000, new Rectangle(1500, 200, 40, 40));
+            map.PlaceCastle(c);
             this.menu = new Interface(this.graphics, this.spriteBatch, this.font);
             this.menu.Background = backTex;
             this.menu.TowerTex = towerTex;
@@ -138,6 +139,18 @@ namespace SQA_Tower_Defense
             menus.Add(options);
             menus.Add(language);
             menus.Add(difficulty);
+            Enemy e2 = e.Clone();
+            //Path creation using towers
+            for (int i = 0; i <= Math.Abs(e2.Location.Y - c.Location.Y) / 50; i++)
+            {
+                Tower t = new Tower("path",10,0,0,1,new Rectangle(50, 900 - Math.Sign(e2.Location.Y - c.Location.Y) * i * 50, 50, 50));
+                map.PlaceTower(t);
+            }
+            for (int i = 0; i < Math.Abs(e2.Location.X - c.Location.X) / 50; i++)
+            {
+                Tower t = new Tower("path", 10, 0, 0, 1, new Rectangle(50 - Math.Sign(e2.Location.X - c.Location.X) * i * 50,c.Location.Y, 50, 50));
+                map.PlaceTower(t);
+            }
 
             // TODO: use this.Content to load your game content here
         }

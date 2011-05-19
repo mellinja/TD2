@@ -23,7 +23,7 @@ namespace ClassTests
         {
 
 
-            map = new Map("normal", 100000, 1);
+            map = new Map("normal", 100000, 2);
             rec = new Rectangle(0, 0, 5, 5);
             tower = new Tower("basic", 10, 20, 30, 40, new Rectangle(1, 0, 1, 1));
             enemy = new Enemy(10, 1.0f, "basic", 20, new Rectangle(rec.X + 5, rec.Y + 5, rec.Width, rec.Height));

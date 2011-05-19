@@ -30,12 +30,12 @@ namespace SQA_Tower_Defense
                 throw new ArgumentNullException();
             if (range <= 0)
                 throw new ArgumentOutOfRangeException();
-            if (damage <= 0)
+            if (damage < 0)
                 throw new ArgumentOutOfRangeException();
             if (health <= 0)
                 throw new ArgumentOutOfRangeException();
 
-            if (cost <= 0)
+            if (cost < 0)
                 throw new ArgumentOutOfRangeException();
 
 

@@ -52,7 +52,7 @@ namespace ClassTests
         {
 
 
-            Map map = new Map("normal", 100000, 1);
+            Map map = new Map("normal", 100000, 2);
             map.PlaceCastle(new Castle(1, new Rectangle(1, 1, 1, 1)));
             Assert.IsNotNull(map.Castle);
             map.Castle.takeDamage(1);
@@ -66,7 +66,7 @@ namespace ClassTests
         [Test()]
         public void castleCanBeDestroyedStopsAll()
         {
-            Map map = new Map("normal", 100000, 1);
+            Map map = new Map("normal", 100000, 2);
             map.PlaceCastle(new Castle(1, new Rectangle(1, 1, 1, 1)));
             map.SpawnEnemy(new Enemy(1, 1, "basic", 1, new Rectangle(12, 12, 12, 12)));
             map.Castle.takeDamage(1);

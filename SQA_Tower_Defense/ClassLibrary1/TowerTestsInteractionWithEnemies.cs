@@ -19,7 +19,7 @@ namespace ClassTests
             Enemy e1 = new Enemy(20, 1.0, "basic", 1, new Rectangle(11, 11, 1, 1)); // In range of tower and tower 2, closer to tower 1
             Enemy e2 = new Enemy(20, 1.0, "basic", 1, new Rectangle(19, 19, 1, 1)); // In range of tower and tower 2, closer to tower 2
 
-            Map m = new Map("normal", 100, 1);
+            Map m = new Map("normal", 100, 2);
             m.PlaceTower(t1);
             m.PlaceTower(t2);
             m.SpawnEnemy(e1);
@@ -48,7 +48,7 @@ namespace ClassTests
 			Enemy e1 = new Enemy(20, 1.0, "basic", 1, new Rectangle(30, 30, 1, 1)); 
 			Enemy e2 = new Enemy(20, 1.0, "basic", 1, new Rectangle(110, 110, 1, 1)); 
 			
-			Map m = new Map("normal", 100, 1);
+			Map m = new Map("normal", 100, 2);
 			m.PlaceTower(t1);
 			m.SpawnEnemy(e1);
 			m.SpawnEnemy(e2);
@@ -70,7 +70,7 @@ namespace ClassTests
         {
             Tower t1 = new Tower("tower", 10, 1, 10, 10, new Rectangle(0, 0, 10, 10));
             Enemy e1 = new Enemy(20, 1.0, "basic", 1, new Rectangle(150, 150, 155, 155)); //Out of t1's range
-            Map m = new Map("normal", 100, 1);
+            Map m = new Map("normal", 100, 2);
             m.PlaceTower(t1);
             m.SpawnEnemy(e1);
             m.Update();//adds all the approiate enemies to the towers lists

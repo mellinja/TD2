@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Eiffel.xnb</Output>
-      <Time>2011-05-11T21:23:18.195232-04:00</Time>
+      <Output>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Eiffel.xnb</Output>
+      <Time>2011-05-18T21:10:26.1282903-04:00</Time>
     </Item>
     <Item>
       <Source>Sprites\Blank.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Blank.xnb</Output>
-      <Time>2011-05-11T21:23:18.1662304-04:00</Time>
+      <Output>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Blank.xnb</Output>
+      <Time>2011-05-18T21:10:26.1126618-04:00</Time>
     </Item>
     <Item>
       <Source>font.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\font.xnb</Output>
-      <Time>2011-05-11T21:23:18.212233-04:00</Time>
+      <Output>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2011-05-18T21:10:26.1282903-04:00</Time>
     </Item>
     <Item>
       <Source>tooltipfont.spritefont</Source>
@@ -34,8 +34,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\tooltipfont.xnb</Output>
-      <Time>2011-05-11T21:23:18.2912375-04:00</Time>
+      <Output>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\tooltipfont.xnb</Output>
+      <Time>2011-05-18T21:10:26.1439188-04:00</Time>
     </Item>
     <Item>
       <Source>bigfont.spritefont</Source>
@@ -43,8 +43,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\bigfont.xnb</Output>
-      <Time>2011-05-18T21:12:20.6749912-04:00</Time>
+      <Output>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\bigfont.xnb</Output>
+      <Time>2011-05-18T21:21:16.839368-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -52,39 +52,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_DefenseContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_DefenseContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_DefenseContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_DefenseContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T13:41:18-04:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T13:41:18-04:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T13:41:18-04:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T13:41:18-04:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T13:41:18-04:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T13:41:18-04:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-03-11T11:08:53.6616359-05:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-03-30T17:40:28.7782285-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

@@ -27,7 +27,7 @@ namespace ClassTests
             enemyPosition = new Rectangle(1, 1, 1, 1);
             enemy = new Enemy(10, 1.0f, "basic", 10, enemyPosition);
             tower = new Tower("Tower", 1, 1, 1, 100, towerPosition);
-            map = new Map("normal", 100, 1);
+            map = new Map("normal", 100, 2);
             map.PlaceTower(tower);
             map.SpawnEnemy(enemy);
 

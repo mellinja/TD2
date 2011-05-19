@@ -19,7 +19,7 @@ namespace ClassTests
         [SetUp()]
         public void SetUp()
         {
-            map = new Map("normal", 0, 1);
+            map = new Map("normal", 0, 2);
             rec = new Rectangle(0, 0, 5, 5);
             tower = new Tower("", 10, 20, 30, 40, rec);
             enemy = new Enemy(10, 1.0f, "basic", 10, new Rectangle(30, 30, 50, 50));

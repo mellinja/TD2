@@ -21,7 +21,7 @@ namespace ClassTests
         [SetUp()]
         public void SetUp()
         {
-            map = new Map("normal", 100, 1);
+            map = new Map("normal", 100, 2);
             rec = new Rectangle(0, 0, 5, 5);
             tower = new Tower("tower", 10, 20, 30, 40, rec);
             enemy = new Enemy(10, 1.0f, "basic", 10, rec);
@@ -99,7 +99,7 @@ namespace ClassTests
         [Test()]
         public void MoneyIncreasesWhenTowerIsSold()
         {
-            Map map = new Map("normal", 0, 1);
+            Map map = new Map("normal", 0, 2);
             Tower tower = new Tower("normal", 10, 20, 30, 40, rec);
             map.SellTower(tower);
             Assert.AreEqual(22, map.Money);
@@ -108,7 +108,7 @@ namespace ClassTests
         [Test()]
         public void InsufficientFundsRejectTowerPlacement()
         {
-            map = new Map("normal", 0, 1);
+            map = new Map("normal", 0, 2);
             map.PlaceTower(tower);
             Assert.AreEqual(map.Towers, new List<Tower>());
         }
@@ -140,7 +140,7 @@ namespace ClassTests
         {
 
             Tower tower = new Tower("tower", 10, 20, 30, 40, rec);
-            Map map = new Map("normal", 0, 1);
+            Map map = new Map("normal", 0, 2);
             map.PlaceTower(tower);
             map.SellTower(tower);
             Assert.AreEqual(map.Towers, new List<Tower>());
@@ -162,7 +162,7 @@ namespace ClassTests
         [Test()]
         public void EnemiesNotInListThatGetKilledCrashGame()
         {
-            map = new Map("normal", 0, 1);
+            map = new Map("normal", 0, 2);
             map.KillEnemy(enemy);
         }
         

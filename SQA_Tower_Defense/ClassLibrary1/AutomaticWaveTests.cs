@@ -32,7 +32,7 @@ namespace ClassTests
 
             e = new Enemy(10, 1.0f, "basic", 10, new Rectangle(7, 8, 1, 1));
 
-            map = new Map("normal", 10000, 1);
+            map = new Map("normal", 10000, 2);
 
             map.setStandardEnemy(e);//Allows the map to create waves of this enemy
 
