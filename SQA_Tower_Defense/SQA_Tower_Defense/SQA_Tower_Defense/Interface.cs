@@ -91,22 +91,22 @@ namespace SQA_Tower_Defense
                             spriteBatch.Draw(backgroundTexture, new Rectangle(i, j, 1, 1), new Color(50, 1, 1, 100));
                         }
                     }
-
-
                 }
 
                 
             }
-            else
-                spriteBatch.DrawString(tipFont, lm.getTranslation("Infinite", language) + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y + 45), Color.White);
-
+            
             
 
             // spriteBatch.DrawString(tipFont, tower.Name + lm.getTranslation("Tower", language), new Vector2(tipBackground.X, tipBackground.Y), Color.White);
-            spriteBatch.DrawString(tipFont, lm.getTranslation("Cost: ", language), new Vector2(tipBackground.X, tipBackground.Y), Color.White);
-            spriteBatch.DrawString(tipFont, tower.Range / 2 + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y+45), Color.White);
+            if(tower.Name != "sniper")
+                spriteBatch.DrawString(tipFont, tower.Range / 2 + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y + 45), Color.White);
+            else
+                spriteBatch.DrawString(tipFont, lm.getTranslation("Infinite", language) + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y + 45), Color.White);
+
+             spriteBatch.DrawString(tipFont, lm.getTranslation("Cost", language) + ": "+ tower.Cost, new Vector2(tipBackground.X, tipBackground.Y), Color.White);
             spriteBatch.DrawString(tipFont, lm.getTranslation("Damage", language) + ": " + tower.AttackDamage, new Vector2(tipBackground.X, tipBackground.Y + 15), Color.White);
-            spriteBatch.DrawString(tipFont, lm.getTranslation("Sell for", language) + " " + tower.Cost * 3 / 4 + " " + lm.getTranslation("gold", language) + ": ", new Vector2(tipBackground.X, tipBackground.Y + 30), Color.White);
+            spriteBatch.DrawString(tipFont, lm.getTranslation("Sell for", language) + " " + tower.Cost * 3 / 4 + " " + lm.getTranslation("gold", language), new Vector2(tipBackground.X, tipBackground.Y + 30), Color.White);
         }
 
         public void DisplayRewind(SpriteFont font)

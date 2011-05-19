@@ -26,7 +26,7 @@ Velocidad
 enemy
 Enemigo
 Sell for
-Cuesta para
+Venta de
 Tower
 Torre
 Main Menu
@@ -49,3 +49,5 @@ Spanish
 Espanol
 Infinite
 Infinita
+Cost
+Costo

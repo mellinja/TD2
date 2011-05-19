@@ -350,14 +350,14 @@ if (null != castle)
                    firstWaveConstructed = true;
             }
            else if (updateCounter % 2000 == 0)
-            {
+          {
            StandardEnemy.Health = (int) (StandardEnemy.Health * 1.2f);
            this.wave = new Wave(
            StandardEnemy,numberOfEnemies);
            updateCounter = 0;
           
-           }
-            else {
+          }
+          else {
   
                numberOfEnemies = (int) (numberOfEnemies * 1.2f);
            this.wave = new Wave(

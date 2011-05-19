@@ -17,6 +17,8 @@ Damage
 Damage
 Range
 Range
+Cost
+Cost
 Health
 Health
 Rewinding
