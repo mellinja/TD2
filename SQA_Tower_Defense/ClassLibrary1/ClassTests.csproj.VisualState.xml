@@ -8,5 +8,6 @@
     <Node UniqueName="[0-1137]C:\Documents and Settings\mellinja\TD2\SQA_Tower_Defense\ClassLibrary1\bin\Debug\ClassLibrary1.dll" Expanded="true" />
     <Node UniqueName="[0-1138]ClassTests" Expanded="true" />
     <Node UniqueName="[0-1025]ClassTests.TowerColorTests" Expanded="true" />
+    <Node UniqueName="[0-1017]ClassTests.WaveTest" Expanded="true" />
   </Nodes>
 </VisualState>
