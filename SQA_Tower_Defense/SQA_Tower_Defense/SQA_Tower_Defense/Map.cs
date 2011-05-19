@@ -99,18 +99,24 @@ namespace SQA_Tower_Defense
       }
       //Checks to see if the given rectangle (location) intersects with any of the towers currently placed on the map.
       public bool isConflicting(Rectangle rectangle)
-  {
-      foreach(Tower t in this.Towers)
-{
-  if(rectangle.Intersects(t.Location))
-  {
-      return true;
-  }
-    }
+      {
 
-return false;    
-  
-  
+
+          foreach (Tower t in this.Towers)
+          {
+              if (t.Name == "path")
+              {
+                  return false;
+              }
+              if (rectangle.Intersects(t.Location))
+              {
+                  return true;
+              }
+          }
+
+          return false;
+
+
       }
 
 

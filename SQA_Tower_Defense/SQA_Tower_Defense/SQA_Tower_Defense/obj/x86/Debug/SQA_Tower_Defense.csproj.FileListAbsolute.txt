@@ -1,54 +1,3 @@
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\SQA_Tower_Defense.exe
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\SQA_Tower_Defense.pdb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.dll
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.mocks.dll
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.xml
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.exe
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.pdb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\SQA_Tower_Defense.exe
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\SQA_Tower_Defense.pdb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.dll
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.mocks.dll
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.xml
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.exe
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.pdb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Eiffel.xnb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\font.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Eiffel.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\font.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\SQA_Tower_Defense.exe
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\SQA_Tower_Defense.pdb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.dll
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.mocks.dll
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.xml
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.exe
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.pdb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Blank.xnb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\tooltipfont.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Blank.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\tooltipfont.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Eiffel.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Blank.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\font.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\tooltipfont.xnb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\SQA_Tower_Defense.exe
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\SQA_Tower_Defense.pdb
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.dll
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.mocks.dll
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.xml
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.exe
-C:\Documents and Settings\mellinja\SQA-Tower-Defense\TDGAME\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.pdb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.exe
 C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Eiffel.xnb
 C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Blank.xnb
 C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\font.xnb
@@ -59,9 +8,7 @@ C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_De
 C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.dll
 C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.mocks.dll
 C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\nunit.framework.xml
+C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.exe
 C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\obj\x86\Debug\SQA_Tower_Defense.pdb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Eiffel.xnb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Blank.xnb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\font.xnb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\tooltipfont.xnb
-C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\bigfont.xnb

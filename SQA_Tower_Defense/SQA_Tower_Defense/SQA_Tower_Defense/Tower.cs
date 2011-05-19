@@ -60,7 +60,9 @@ namespace SQA_Tower_Defense
                 case "dot":
                     this.color = Color.Firebrick;
                     break;
-
+                case "sniper":
+                    this.color = Color.Green;
+                    break;
 
             }
 

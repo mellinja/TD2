@@ -32,8 +32,10 @@ namespace SQA_Tower_Defense
 
             this.TowerTypes = new List<Tower>();
             Rectangle tower = new Rectangle(background.X + 20, background.Y + 5, 50, 50);
-            TowerTypes.Add(new Tower("Basic", 10, 50, 10, 100, tower));
-            TowerTypes.Add(new Tower("Basic", 10, 15, 15, 100, new Rectangle(tower.X + 100, tower.Y, tower.Width, tower.Height)));
+            TowerTypes.Add(new Tower("basic", 10, 50, 10, 100, tower));
+            TowerTypes.Add(new Tower("dot", 10, 15, 15, 100, new Rectangle(tower.X + 100, tower.Y, tower.Width, tower.Height)));
+            TowerTypes.Add(new Tower("slow", 10, 0, 10, 100, new Rectangle(tower.X + 200, tower.Y, tower.Width, tower.Height)));
+            TowerTypes.Add(new Tower("sniper", 10, 50, 500, 10000, new Rectangle(tower.X + 300, tower.Y, tower.Width, tower.Height)));
 
             this.spriteBatch = spriteBatch;
             this.font = font;
@@ -48,7 +50,7 @@ namespace SQA_Tower_Defense
 
             foreach (Tower tower in TowerTypes)
             {
-                spriteBatch.Draw(TowerTextures, tower.Location, Color.White);
+                spriteBatch.Draw(TowerTextures, tower.Location, tower.Color);
             }
 
             Vector2 textLocation = new Vector2(graphics.PreferredBackBufferWidth - 300, graphics.PreferredBackBufferHeight * 4 / 5);
@@ -73,21 +75,32 @@ namespace SQA_Tower_Defense
 
         public void DisplayToolTip(Tower tower, Vector2 position)
         {
-            Rectangle tipBackground = new Rectangle((int)position.X, (int)position.Y - 70, 180, 80);
+            int width = language == "En" ? 200 : 250;
+            Rectangle tipBackground = new Rectangle((int)position.X, (int)position.Y - 70, width, 80);
             spriteBatch.Draw(backgroundTexture, tipBackground, new Color(0, 0, 0, 100));
 
-            for (int i = tower.Location.Center.X - tower.Range; i < tower.Location.Center.X + tower.Range; i++)
+
+            if (tower.Name != "sniper")
             {
-                for (int j = tower.Location.Center.Y - tower.Range; j < tower.Location.Center.Y + tower.Range; j++)
+                for (int i = tower.Location.Center.X - tower.Range; i < tower.Location.Center.X + tower.Range; i++)
                 {
-                    if (tower.DistanceFrom(new Vector2(i, j)) < tower.Range)
+                    for (int j = tower.Location.Center.Y - tower.Range; j < tower.Location.Center.Y + tower.Range; j++)
                     {
-                        spriteBatch.Draw(backgroundTexture, new Rectangle(i, j, 1, 1), new Color(50, 1, 1, 100));
+                        if (tower.DistanceFrom(new Vector2(i, j)) < tower.Range)
+                        {
+                            spriteBatch.Draw(backgroundTexture, new Rectangle(i, j, 1, 1), new Color(50, 1, 1, 100));
+                        }
                     }
+
+
                 }
 
-
+                spriteBatch.DrawString(tipFont, tower.Range / 2 + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y), Color.White);
             }
+            else
+                spriteBatch.DrawString(tipFont, lm.getTranslation("Infinite", language) + " " + lm.getTranslation("Range", language), new Vector2(tipBackground.X, tipBackground.Y + 45), Color.White);
+
+            
 
             // spriteBatch.DrawString(tipFont, tower.Name + lm.getTranslation("Tower", language), new Vector2(tipBackground.X, tipBackground.Y), Color.White);
             spriteBatch.DrawString(tipFont, lm.getTranslation("Damage", language) + ": " + tower.AttackDamage, new Vector2(tipBackground.X, tipBackground.Y + 15), Color.White);

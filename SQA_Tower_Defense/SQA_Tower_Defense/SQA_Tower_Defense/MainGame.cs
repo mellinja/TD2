@@ -175,6 +175,9 @@ namespace SQA_Tower_Defense
 
             if (!main.Visible)
             {
+                foreach (Enemy e in map.Enemies)
+                    e.Update();
+
                 foreach (Tower t in map.Towers)
                     t.Update();
                 map.Update();
@@ -216,7 +219,7 @@ namespace SQA_Tower_Defense
 
             foreach (Tower tower in map.Towers)
             {
-                spriteBatch.Draw(towerTex, tower.Location, Color.White);
+                spriteBatch.Draw(towerTex, tower.Location, tower.Color);
             }
             foreach (Enemy enemy in map.Enemies)
             {
@@ -224,7 +227,7 @@ namespace SQA_Tower_Defense
                 enemy.DrawHealth(backTex, spriteBatch);
             }
             if (placingTower != null)
-                spriteBatch.Draw(towerTex, placingTower.Location, Color.White);
+                spriteBatch.Draw(towerTex, placingTower.Location, placingTower.Color);
 
             #endregion
 
@@ -251,6 +254,16 @@ namespace SQA_Tower_Defense
                     }
 
                 }
+            }
+
+            foreach (Tower tower in menu.Towers)
+            {
+                if (tower.Location.Contains(mouseState.X, mouseState.Y))
+                {
+                    menu.DisplayToolTip(tower, new Vector2(mouseState.X, mouseState.Y));
+                    break;
+                }
+
             }
 
 
@@ -290,6 +303,16 @@ namespace SQA_Tower_Defense
                 language.Visible = false;
             }
 
+
+            foreach (Tower tower in menu.Towers)
+            {
+                if (tower.Location.Contains(mouseState.X, mouseState.Y))
+                {
+                    menu.DisplayToolTip(tower, new Vector2(mouseState.X, mouseState.Y));
+                    break;
+                }
+
+            }
 
             spriteBatch.End();
 

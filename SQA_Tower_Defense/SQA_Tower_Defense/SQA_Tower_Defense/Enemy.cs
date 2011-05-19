@@ -23,6 +23,9 @@ namespace SQA_Tower_Defense
         protected Castle castle;
         protected bool inFiringRange;
         protected Map map;
+        protected bool freezing;
+        protected int counter, burnStop;
+        
         //Constructs the Enemy class, throws 2 exceptions (ArgumentOurOfRangeException and ArgumentNullArgument) (15 lines)
         public Enemy(float health, double speed, String type, int gold, Rectangle location)
         {
@@ -58,10 +61,32 @@ namespace SQA_Tower_Defense
 
         }
 
+
+        //Checks whether it is slowed or burning
+        public void Update()
+        {
+            counter++;
+            
+            if (counter < burnStop)
+            {
+                this.health -= 1;
+
+            }
+
+
+            
+
+
+        }
+
         //Moves the enemy buy 1 unit down and 1 unit left (1 line)
         public void Move()
         {
 
+            if (freezing && counter % 2 == 0)
+                return;
+            
+            
             if (inFiringRange)
             {
 
@@ -244,7 +269,23 @@ namespace SQA_Tower_Defense
             get { return this.map; }
             set { this.map = value; }
         }
+        public bool Freezing
+        {
+            get { return this.freezing; }
+            set { this.freezing = value; }
 
+
+        }
+        public int BurnStop
+        {
+            get { return this.burnStop; }
+            set { this.burnStop = value; }
+        }
+        public int Counter
+        {
+            get { return this.counter; }
+
+        }
 
 
 

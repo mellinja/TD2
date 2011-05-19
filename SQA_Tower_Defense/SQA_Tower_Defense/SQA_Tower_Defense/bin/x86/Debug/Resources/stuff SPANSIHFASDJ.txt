@@ -16,11 +16,11 @@ oro
 Damage
 Danos
 Range
-Rango
+Gama
 Health
 Puntos de Salud
 Rewinding
-Eres el rebobinado
+Rebobinado
 Speed
 Velocidad
 enemy
@@ -47,3 +47,5 @@ English
 Ingles
 Spanish
 Espanol
+Infinite
+Infinita
