@@ -20,7 +20,7 @@ namespace SQA_Tower_Defense
         public SpriteBatch spriteBatch;
         public Tower placingTower;
         public Texture2D towerTex, backTex;
-        public SpriteFont font, toolTipFont;
+        public SpriteFont font, toolTipFont, bigFont;
 
         public Interface menu;
 
@@ -85,6 +85,7 @@ namespace SQA_Tower_Defense
             spriteBatch = new SpriteBatch(GraphicsDevice);
             font = Content.Load<SpriteFont>("font");
             toolTipFont = Content.Load<SpriteFont>("tooltipfont");
+            bigFont = Content.Load<SpriteFont>("bigFont");
             gridSize = 50;
             gameTimer = 0;
             placingTower = null;
@@ -247,7 +248,7 @@ namespace SQA_Tower_Defense
 
             if (rewindingTime)
             {
-                menu.DisplayRewind();
+                menu.DisplayRewind(bigFont);
 
             }
             else

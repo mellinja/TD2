@@ -96,7 +96,7 @@ namespace SQA_Tower_Defense
 
         public void DisplayRewind(SpriteFont font)
         {
-            spriteBatch.DrawString(font, "< " + lm.getTranslation("Rewinding", language) + "... >", new Vector2(graphics.PreferredBackBufferWidth / 2 - graphics.PreferredBackBufferWidth / 4, graphics.PreferredBackBufferHeight / 2 - graphics.PreferredBackBufferHeight / 8), Color.White);
+            spriteBatch.DrawString(font, "< ..." + lm.getTranslation("Rewinding", language) + "... >", new Vector2(200, 1000), Color.White);
 
         }
 

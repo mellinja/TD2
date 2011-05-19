@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Eiffel.xnb</Output>
+      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Eiffel.xnb</Output>
       <Time>2011-05-11T21:23:18.195232-04:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Blank.xnb</Output>
+      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\Sprites\Blank.xnb</Output>
       <Time>2011-05-11T21:23:18.1662304-04:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\font.xnb</Output>
+      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\font.xnb</Output>
       <Time>2011-05-11T21:23:18.212233-04:00</Time>
     </Item>
     <Item>
@@ -34,8 +34,17 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\tooltipfont.xnb</Output>
+      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\tooltipfont.xnb</Output>
       <Time>2011-05-11T21:23:18.2912375-04:00</Time>
+    </Item>
+    <Item>
+      <Source>bigfont.spritefont</Source>
+      <Name>bigfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\bigfont.xnb</Output>
+      <Time>2011-05-18T21:12:20.6749912-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -43,10 +52,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_DefenseContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_DefenseContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\Final Project\SQA-Tower-Defense\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_DefenseContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_DefenseContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Andeh\Documents\Courses\CSSE376\Git\2nd Final Project Repo\SQA_Tower_Defense\SQA_Tower_Defense\SQA_Tower_Defense\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
